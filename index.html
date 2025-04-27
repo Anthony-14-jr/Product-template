@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <h1>MyProduct</h1>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Introducing MyProduct</h2>
+            <p>Experience the future of technology with MyProduct. It's sleek, innovative, and powerful.</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="image1.jpg" alt="Product Image">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to get in touch, feel free to send me a message!</p>
+
+        <form action="https://formspree.io/f/xovdvkwg" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p>Alternatively, you can reach me via:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/your-profile">LinkedIn</a></li>
+            <li><a href="mailto:chidubemoffiaukwu5@gmail.com">Email</a></li>
+            <li><a href="https://twitter.com/your-twitter">Twitter</a></li>
+        </ul>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="feature-item">
+            <h3>Feature 1</h3>
+            <p>High-speed performance for everyday tasks.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature 2</h3>
+            <p>Long battery life to keep you going all day.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Feature 3</h3>
+            <p>Elegant design that fits your style.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 MyProduct. All rights reserved.</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="mailto:chidubemoffiaukwu5@gmail.com" target="_blank">Email</a>
+            <a href="https://twitter.com/your-twitter" target="_blank">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
